@@ -1,4 +1,6 @@
 import "package:flutter/material.dart";
+import 'package:loginsql/pages/home_page.dart';
+import 'package:loginsql/pages/login/login_page.dart';
 
 void main() {
   runApp(new MyApp());
@@ -7,7 +9,7 @@ void main() {
 final routes = {
   '/login': (BuildContext context) => new LoginPage(),
   '/home': (BuildContext context) => new HomePage(),
-  '/': (BuildContext context) => new Loginpage(),
+  '/': (BuildContext context) => new LoginPage(),
 };
 
 class MyApp extends StatelessWidget {
